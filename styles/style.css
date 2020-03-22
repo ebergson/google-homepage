@@ -1,7 +1,190 @@
-
-img {
-    width: 272px;
-    height: 92px;
-    display: block;
-    margin: 0 auto;
-}
+body {
+    height: 100%;
+    margin: 0;
+    font-family: arial, sans-serif;
+    color: #222;
+  }
+  
+  .nav-bar {
+    width: 100%;
+    height: 32px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-size: 13px;
+    padding-top: 20px;
+  }
+  
+  .nav-bar a {
+    color: #222;
+  }
+  
+  .gmail {
+    padding-right: 15px;
+  }
+  
+  .atteli {
+    padding-right: 20px;
+  }
+  
+  .google-apps {
+    width: 18px;
+    height: 18px;
+    background-color: #CCCCCC;
+  }
+  
+  #eddie-vedder-pic {
+    width: 30px;
+    height: 30px;
+    border-style: none;
+    border-radius: 50%;
+    padding: 0 20px;
+  }
+  
+  #google-image {
+      width: 272px;
+      height: 92px;
+  }
+  
+  .center {
+    /* background-color: yellow; */
+    width: 582px;
+    height: 200px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-left: -291px;
+    margin-top: -100px;
+  }
+  
+  .google-img {
+    text-align: center;
+  }
+  
+  .search-form {
+    text-align: center;
+  }
+  
+  .search-halo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 582px;
+    height: 44px;
+    background-color: #fff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #CCCCCC;
+    border-radius: 22px;
+    margin: 10px 0;
+  }
+  
+  .search-magnifier {
+    width: 15px;
+    height: 15px;
+    background-color: #CCCCCC;
+  }
+  
+  .search input {
+    width: 487px;
+    height: 34px;
+    border-color: transparent;
+    font-size: 16px;
+  }
+  
+  .search-keyboard {
+    width: 15px;
+    height: 15px;
+    background-color: #CCCCCC;
+  }
+  
+  .search-button {
+    background-color: #F2F2F2;
+    color: #5F6368;
+    height: 36px;
+    width: 152px;
+    border-style: none;
+    border-radius: 2px;
+    font-family: arial, sans-serif;
+    margin: 20px 5px;
+  }
+  
+  .languages {
+    text-align: center;
+    font-size: small;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  footer {
+    color: #5F6368;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    font-size: 14px;
+    background-color: #F2F2F2;
+  }
+  
+  footer a {
+    color: #5F6368;
+  }
+  
+  .top-footer {
+    height: 40px;
+    border-bottom: 1px solid #e4e4e4;
+    border-top: 1px solid #e4e4e4;
+    display: flex;
+    align-items: center;
+    padding-left: 27px;
+  }
+  
+  .bottom-footer {
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #e4e4e4;
+    display: flex;
+  }
+  
+  .bottom-footer-left {
+    display: flex;
+    width: 50%;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 27px;
+  }
+  
+  .uznemejdarbiba {
+    padding-left: 20px;
+  }
+  
+  .plasaka-info {
+    padding-left: 20px;
+  }
+  
+  .ka-darbojas {
+    padding-left: 20px;
+  }
+  
+  .bottom-footer-right {
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .konfid {
+    padding-right: 20px;
+  }
+  
+  .noteikumi {
+    padding-right: 20px;
+  }
+  
+  .iestatijumi {
+    padding-right: 27px;
+  }
